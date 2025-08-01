@@ -61,7 +61,7 @@ public class TemperatureAnalyzer {
         Double day3TempWrapper = Double.valueOf(day3TempPrimitive);
 
         double max = Math.max(day1TempPrimitive, Math.max(day2TempPrimitive,day3TempPrimitive));
-        System.out.println("\nThe highest temperature recorded was: " + max);
+        System.out.println("\nThe highest temperature recorded was: " + max + "°C");
 
     }
 }
